@@ -304,8 +304,8 @@ func runServer(cfg *configs.Config) {
 	// Server boilerplate
 	srv := &http.Server{
 		Handler:      h,
-		Addr:         fmt.Sprintf("%s:%d", cfg.Host, cfg.Port),
-		// Addr:        "0.0.0.0:" + os.Getenv("PORT"),
+		// Addr:         fmt.Sprintf("%s:%d", cfg.Host, cfg.Port),
+		Addr:        "0.0.0.0:" + os.Getenv("PORT"),
 		WriteTimeout: 0, // Disabled, set cfg.ServerRequestTimeout instead
 		ReadTimeout:  0, // Disabled, set cfg.ServerRequestTimeout instead
 	}
