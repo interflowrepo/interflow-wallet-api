@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/templates"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/templates/template_strings"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/transactions"
+	"github.com/interflowrepo/interflow-wallet-api/templates"
+	"github.com/interflowrepo/interflow-wallet-api/templates/template_strings"
+	"github.com/interflowrepo/interflow-wallet-api/transactions"
 	log "github.com/sirupsen/logrus"
 )
 

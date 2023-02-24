@@ -5,7 +5,7 @@ import (
 
 	"net/http"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/system"
+	"github.com/interflowrepo/interflow-wallet-api/system"
 	log "github.com/sirupsen/logrus"
 )
 

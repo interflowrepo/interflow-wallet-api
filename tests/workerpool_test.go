@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/jobs"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/tests/test"
+	"github.com/interflowrepo/interflow-wallet-api/jobs"
+	"github.com/interflowrepo/interflow-wallet-api/tests/test"
 )
 
 func Test_WorkerPoolExecutesJobWithSuccess(t *testing.T) {

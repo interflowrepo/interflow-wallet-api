@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/jobs"
+	"github.com/interflowrepo/interflow-wallet-api/jobs"
 )
 
 const WithdrawalCreateJobType = "withdrawal_create"

@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/handlers"
+	"github.com/interflowrepo/interflow-wallet-api/handlers"
 )
 
 func Test_IdempotencyMiddleware(t *testing.T) {

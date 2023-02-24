@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/google/uuid"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/datastore"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/errors"
+	"github.com/interflowrepo/interflow-wallet-api/datastore"
+	"github.com/interflowrepo/interflow-wallet-api/errors"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/jobs"
+	"github.com/interflowrepo/interflow-wallet-api/jobs"
 )
 
 // List returns all jobs.

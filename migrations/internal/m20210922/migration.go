@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/templates"
+	"github.com/interflowrepo/interflow-wallet-api/templates"
 	"gorm.io/gorm"
 )
 

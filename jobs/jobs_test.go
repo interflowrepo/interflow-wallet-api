@@ -14,7 +14,7 @@ import (
 	"github.com/sirupsen/logrus/hooks/test"
 
 	"github.com/google/uuid"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/datastore"
+	"github.com/interflowrepo/interflow-wallet-api/datastore"
 )
 
 type dummyStore struct{}

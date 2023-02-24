@@ -2,17 +2,17 @@ package migrations
 
 import (
 	"github.com/go-gormigrate/gormigrate/v2"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20210922"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20211005"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20211015"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20211118"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20211130"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20211202"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20211220"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20211221_1"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20211221_2"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20220212"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/migrations/internal/m20221001"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20210922"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20211005"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20211015"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20211118"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20211130"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20211202"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20211220"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20211221_1"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20211221_2"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20220212"
+	"github.com/interflowrepo/interflow-wallet-api/migrations/internal/m20221001"
 )
 
 func List() []*gormigrate.Migration {

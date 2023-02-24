@@ -1,7 +1,7 @@
 package transactions
 
 import (
-	"github.com/interflowrepo/interflow/interflow-wallet-api/datastore"
+	"github.com/interflowrepo/interflow-wallet-api/datastore"
 )
 
 // Store manages data regarding transactions.

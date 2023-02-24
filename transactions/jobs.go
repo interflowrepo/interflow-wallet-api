@@ -3,7 +3,7 @@ package transactions
 import (
 	"context"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/jobs"
+	"github.com/interflowrepo/interflow-wallet-api/jobs"
 )
 
 const TransactionJobType = "transaction"

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/flow_helpers"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/tests/test"
+	"github.com/interflowrepo/interflow-wallet-api/flow_helpers"
+	"github.com/interflowrepo/interflow-wallet-api/keys"
+	"github.com/interflowrepo/interflow-wallet-api/tests/test"
 	"github.com/onflow/cadence"
 	"github.com/onflow/flow-go-sdk"
 )

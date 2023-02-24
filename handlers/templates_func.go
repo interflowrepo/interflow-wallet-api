@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/templates"
+	"github.com/interflowrepo/interflow-wallet-api/templates"
 )
 
 func (s *Templates) AddTokenFunc(rw http.ResponseWriter, r *http.Request) {

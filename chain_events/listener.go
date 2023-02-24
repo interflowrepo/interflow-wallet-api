@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	wallet_errors "github.com/interflowrepo/interflow/interflow-wallet-api/errors"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/flow_helpers"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/system"
+	wallet_errors "github.com/interflowrepo/interflow-wallet-api/errors"
+	"github.com/interflowrepo/interflow-wallet-api/flow_helpers"
+	"github.com/interflowrepo/interflow-wallet-api/system"
 	"github.com/onflow/flow-go-sdk"
 	log "github.com/sirupsen/logrus"
 	"gorm.io/gorm"

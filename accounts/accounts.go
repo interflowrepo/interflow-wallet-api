@@ -4,7 +4,7 @@ package accounts
 import (
 	"time"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys"
+	"github.com/interflowrepo/interflow-wallet-api/keys"
 	"gorm.io/gorm"
 )
 

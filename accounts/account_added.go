@@ -1,7 +1,7 @@
 package accounts
 
 import (
-	"github.com/interflowrepo/interflow/interflow-wallet-api/templates"
+	"github.com/interflowrepo/interflow-wallet-api/templates"
 	"github.com/onflow/flow-go-sdk"
 	log "github.com/sirupsen/logrus"
 )

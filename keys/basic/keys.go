@@ -7,13 +7,13 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/configs"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/flow_helpers"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys/aws"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys/encryption"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys/google"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys/local"
+	"github.com/interflowrepo/interflow-wallet-api/configs"
+	"github.com/interflowrepo/interflow-wallet-api/flow_helpers"
+	"github.com/interflowrepo/interflow-wallet-api/keys"
+	"github.com/interflowrepo/interflow-wallet-api/keys/aws"
+	"github.com/interflowrepo/interflow-wallet-api/keys/encryption"
+	"github.com/interflowrepo/interflow-wallet-api/keys/google"
+	"github.com/interflowrepo/interflow-wallet-api/keys/local"
 	"github.com/onflow/flow-go-sdk"
 	"github.com/onflow/flow-go-sdk/crypto"
 )

@@ -1,4 +1,4 @@
-module github.com/interflowrepo/interflow/interflow-wallet-api
+module github.com/interflowrepo/interflow-wallet-api
 
 go 1.17
 

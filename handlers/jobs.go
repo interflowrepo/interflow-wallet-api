@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/jobs"
+	"github.com/interflowrepo/interflow-wallet-api/jobs"
 )
 
 // Jobs is a HTTP server for jobs.

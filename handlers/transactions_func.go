@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/errors"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/transactions"
+	"github.com/interflowrepo/interflow-wallet-api/errors"
+	"github.com/interflowrepo/interflow-wallet-api/transactions"
 )
 
 func (s *Transactions) ListFunc(rw http.ResponseWriter, r *http.Request) {

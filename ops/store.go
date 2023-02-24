@@ -1,7 +1,7 @@
 package ops
 
 import (
-	"github.com/interflowrepo/interflow/interflow-wallet-api/accounts"
+	"github.com/interflowrepo/interflow-wallet-api/accounts"
 )
 
 // Store defines what ops needs from the database

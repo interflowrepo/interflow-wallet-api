@@ -6,7 +6,7 @@ import (
 	"crypto/rand"
 	"strings"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys"
+	"github.com/interflowrepo/interflow-wallet-api/keys"
 	"github.com/onflow/flow-go-sdk"
 	"github.com/onflow/flow-go-sdk/crypto"
 )

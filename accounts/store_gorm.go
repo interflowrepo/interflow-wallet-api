@@ -1,7 +1,7 @@
 package accounts
 
 import (
-	"github.com/interflowrepo/interflow/interflow-wallet-api/datastore"
+	"github.com/interflowrepo/interflow-wallet-api/datastore"
 	"gorm.io/gorm"
 )
 

@@ -3,7 +3,7 @@ package chain_events
 import (
 	"sync"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/datastore/lib"
+	"github.com/interflowrepo/interflow-wallet-api/datastore/lib"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )

@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/errors"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/templates"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/tokens"
+	"github.com/interflowrepo/interflow-wallet-api/errors"
+	"github.com/interflowrepo/interflow-wallet-api/templates"
+	"github.com/interflowrepo/interflow-wallet-api/tokens"
 )
 
 func (s *Tokens) SetupFunc(rw http.ResponseWriter, r *http.Request) {

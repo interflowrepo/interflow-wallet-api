@@ -5,9 +5,9 @@ package tokens
 import (
 	"time"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/accounts"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/templates"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/transactions"
+	"github.com/interflowrepo/interflow-wallet-api/accounts"
+	"github.com/interflowrepo/interflow-wallet-api/templates"
+	"github.com/interflowrepo/interflow-wallet-api/transactions"
 	"gorm.io/gorm"
 )
 

@@ -952,7 +952,7 @@ components:
           Content-Type: application/json
           Connection: close
 
-        ver: https://github.com/interflowrepo/interflow/interflow-wallet-api/commit/
+        ver: https://github.com/interflowrepo/interflow-wallet-api/commit/
         built on:
         api version called: v1
     account:

@@ -11,19 +11,19 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 	"github.com/gorilla/mux"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/accounts"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/chain_events"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/configs"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/datastore/gorm"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/handlers"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/jobs"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys/basic"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/ops"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/system"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/templates"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/tokens"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/transactions"
+	"github.com/interflowrepo/interflow-wallet-api/accounts"
+	"github.com/interflowrepo/interflow-wallet-api/chain_events"
+	"github.com/interflowrepo/interflow-wallet-api/configs"
+	"github.com/interflowrepo/interflow-wallet-api/datastore/gorm"
+	"github.com/interflowrepo/interflow-wallet-api/handlers"
+	"github.com/interflowrepo/interflow-wallet-api/jobs"
+	"github.com/interflowrepo/interflow-wallet-api/keys"
+	"github.com/interflowrepo/interflow-wallet-api/keys/basic"
+	"github.com/interflowrepo/interflow-wallet-api/ops"
+	"github.com/interflowrepo/interflow-wallet-api/system"
+	"github.com/interflowrepo/interflow-wallet-api/templates"
+	"github.com/interflowrepo/interflow-wallet-api/tokens"
+	"github.com/interflowrepo/interflow-wallet-api/transactions"
 	access "github.com/onflow/flow-go-sdk/access/grpc"
 	log "github.com/sirupsen/logrus"
 	"go.uber.org/ratelimit"
@@ -165,7 +165,7 @@ func runServer(cfg *configs.Config) {
 	rv := r.PathPrefix("/{apiVersion}").Subrouter()
 
 	// Debug
-	rv.Handle("/debug", handlers.Debug("https://github.com/interflowrepo/interflow/interflow-wallet-api", sha1ver, buildTime)).Methods(http.MethodGet)
+	rv.Handle("/debug", handlers.Debug("https://github.com/interflowrepo/interflow-wallet-api", sha1ver, buildTime)).Methods(http.MethodGet)
 
 	// Health
 	rv.HandleFunc("/health/ready", handlers.HandleHealthReady).Methods(http.MethodGet)
@@ -305,6 +305,7 @@ func runServer(cfg *configs.Config) {
 	srv := &http.Server{
 		Handler:      h,
 		Addr:         fmt.Sprintf("%s:%d", cfg.Host, cfg.Port),
+		// Addr:        "0.0.0.0:" + os.Getenv("PORT"),
 		WriteTimeout: 0, // Disabled, set cfg.ServerRequestTimeout instead
 		ReadTimeout:  0, // Disabled, set cfg.ServerRequestTimeout instead
 	}
@@ -313,8 +314,8 @@ func runServer(cfg *configs.Config) {
 	go func() {
 		log.
 			WithFields(log.Fields{
-				"host": cfg.Host,
-				"port": cfg.Port,
+				"host": "0.0.0.0",
+				"port": os.Getenv("PORT"),
 			}).
 			Info("Server listening")
 		if err := srv.ListenAndServe(); err != nil {

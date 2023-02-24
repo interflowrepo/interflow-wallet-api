@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/interflowrepo/interflow/interflow-wallet-api/configs"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/keys/encryption"
+	"github.com/interflowrepo/interflow-wallet-api/configs"
+	"github.com/interflowrepo/interflow-wallet-api/keys/encryption"
 )
 
 // Needs to be run manually with proper env configuration

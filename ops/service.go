@@ -1,10 +1,10 @@
 package ops
 
 import (
-	"github.com/interflowrepo/interflow/interflow-wallet-api/configs"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/templates"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/tokens"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/transactions"
+	"github.com/interflowrepo/interflow-wallet-api/configs"
+	"github.com/interflowrepo/interflow-wallet-api/templates"
+	"github.com/interflowrepo/interflow-wallet-api/tokens"
+	"github.com/interflowrepo/interflow-wallet-api/transactions"
 )
 
 // Service lists all functionality provided by ops service

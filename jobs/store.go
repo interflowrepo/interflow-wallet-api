@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/interflowrepo/interflow/interflow-wallet-api/datastore"
+	"github.com/interflowrepo/interflow-wallet-api/datastore"
 )
 
 // Store manages data regarding jobs.
