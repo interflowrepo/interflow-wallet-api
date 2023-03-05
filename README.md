@@ -1,4 +1,4 @@
-# Flow Wallet API
+# Interflow Wallet API
 
 [Interflow Api](https://github.com/interflowrepo/interflow-api) communicates directly with this API to create wallets, execute transactions and query transaction status.
 
